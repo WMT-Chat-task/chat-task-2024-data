@@ -44,7 +44,7 @@ From XX -> English
 
 We additionally release a scoring script to compute the automatic metrics as descibed in the [shared task page](https://www2.statmt.org/wmt24/chat-task.html).
 
-To use the scoring script you need to install the following libraries in the following order:
+To use the scoring script you need to install the following libraries **in the following order**:
 
 1. Install MuDA ([Fernandes et al., 2021](https://aclanthology.org/2023.acl-long.36/)) and package requirements by:
 ```
@@ -64,6 +64,8 @@ for lp in en-de en-fr en-pt en-ko en-nl; do
     python run_automatic_eval.py --input_csv valid/${lp}.csv --hypothesis_file valid/${lp}.baseline.txt --tgt-lang ${lp: -2}
 done
 ```
+## Registration
+If you are participating in the task, make sure to register your team along with the language pairs you intend to participate in using this [registration form](https://forms.gle/zVFtGpt92uvC6XSS9) 
 
 ## License
 
