@@ -8,13 +8,13 @@ The dataset is provided in a csv format, with each row specifying the source lan
 
 Table 1: Number of source segments in the released dataset.
 
-|language pair	|train	|
-|---	|---	|
-|EN <-> DE	| 17805|
-|EN <-> FR	| 15027	|
-|EN <->PT	| 15092	|
-|EN <-> KO	  | 16122	|
-|EN <-> NL	  | 15463	| 
+|language pair	|train	| valid |
+|---	|---	|--- |
+|EN <-> DE	| 17805| 2569 |
+|EN <-> FR	| 15027	| 3007 |
+|EN <->PT-BR	| 15092	| 2550 |
+|EN <-> KO	  | 16122	| 1935 |
+|EN <-> NL	  | 15463	| 2549 |
 
 
 ## Baselines 
@@ -27,7 +27,7 @@ From Engish -> XX
 |---	|---	|---	|
 |EN -> DE	| 66.24	| 86.76	|
 |EN -> FR	| 74.31	| 88.85 |
-|EN ->PT	| 60.68	| 87.38	|
+|EN ->PT-BR	| 60.68	| 87.38	|
 |EN -> KO	  | 30.47	| 84.59 |
 |EN -> NL	  |	60.37| 87.29	|
 
@@ -36,7 +36,7 @@ From XX -> English
 |---	|---	|---	|
 |DE -> EN	| 65.92	| 85.88 | 
 |FR	-> EN | 72.53	| 85.44 |
-|PT -> EN	| 67.13	| 86.83 | 
+|PT-BR -> EN	| 67.13	| 86.83 | 
 |KO -> EN	  |	54.47 |82.81 |
 |NL -> EN	  |	 66.90| 86.58 |  
 
