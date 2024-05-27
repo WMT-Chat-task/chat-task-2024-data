@@ -10,11 +10,11 @@ Table 1: Number of source segments in the released dataset.
 
 |language pair	|train	|
 |---	|---	|
-|EN <-> DE	|2778426	|
-|EN <-> FR	|2151210	|
-|EN <->PT	|2157768	|
-|EN <-> KO	  |2287969	|
-|EN <-> NL	  |2057627	| 
+|EN <-> DE	| 17805|
+|EN <-> FR	| 15027	|
+|EN <->PT	| 15092	|
+|EN <-> KO	  | 16122	|
+|EN <-> NL	  | 15463	| 
 
 
 ## Baselines 
