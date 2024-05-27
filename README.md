@@ -44,11 +44,11 @@ From XX -> English
 
 We additionally release a scoring script to compute the automatic metrics as descibed in the [shared task page](https://www2.statmt.org/wmt24/chat-task.html).
 
-To use the scoring script you need to install the following libraries:
+To use the scoring script you need to install the following libraries in the following order:
 
 1. Install MuDA ([Fernandes et al., 2021](https://aclanthology.org/2023.acl-long.36/)) and package requirements by:
 ```
-    git clone git@github.com:CoderPat/MuDA.git
+    git clone https://github.com/CoderPat/MuDA.git
     pip install allennlp==2.10.0 sacremoses==0.0.53 spacy==3.3.0 spacy_stanza==1.0.2
 ```
 2. Set MuDA path to `export MUDA_HOME=<path_to_muda>`
