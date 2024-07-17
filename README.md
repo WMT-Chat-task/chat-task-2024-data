@@ -8,14 +8,21 @@ The dataset is provided in a csv format, with each row specifying the source lan
 
 Table 1: Number of source segments in the released dataset.
 
-|language pair	|train	| valid |
-|---	|---	|--- |
-|EN <-> DE	| 17805| 2569 |
-|EN <-> FR	| 15027	| 3007 |
-|EN <->PT-BR	| 15092	| 2550 |
-|EN <-> KO	  | 16122	| 1935 |
-|EN <-> NL	  | 15463	| 2549 |
+|language pair	|train	| valid | test |
+|---	|---	|--- |--- |
+|EN <-> DE	| 17805| 2569 | 2041 |
+|EN <-> FR	| 15027	| 3007 | 2091 |
+|EN <->PT-BR	| 15092	| 2550 | 2040 |
+|EN <-> KO	  | 16122	| 1935 | 1982 |
+|EN <-> NL	  | 15463	| 2549 | 2015 |
 
+## Submission Instructions
+- The translations submission deadline is the **26th of July**, End-of-day, anywhere on earth.
+- Submissions should be emailed to the address wmt.chat.task@gmail.com with the subject line: `WMT 2024 CHAT Shared Task Submission`. Submissions should be packed in a compressed file with the following naming convention: `submission_[team-name].tar.gz`. Packages should be organized by language pair (e.g. `./en_de/`).Each directory should include:
+1. One plaintext output file with one sentence per line for each system submitted, pre-formatted for scoring (detokenized, detruecased), for that language pair, named as `[system-id].txt`. The order of sentences should be the same as the original csv files provided for each language pair. You can submit at most 3 system outputs per language pair, one `primary` and up to two `contrastive`. 
+2. Note that each file will include translations for both `x->y` and `y->x` language directions. However, the final automatic evaluation scores will be reported per language direction.
+3. A readme file with the name of the team and the participants, a brief description of each system(s) submitted including details about training data and architecture used, including which system they prefer to be used for final evaluation by the organizers, and the contact persons' name and email.
+- We invite participants to submit a paper describing their system(s) via the conference submission page. The paper submission deadline for WMT is the **20th of August**.
 
 ## Baselines 
 
